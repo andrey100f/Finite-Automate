@@ -1,0 +1,7 @@
+q0 a...z qf
+q0 A...Z qf
+q0 a...z q1
+q0 A...Z q1
+q1 a...z q1|qf
+q1 A...Z q1|qf
+q1 0...9 q1|qf
