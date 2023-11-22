@@ -1,4 +1,4 @@
-Multimea starilor: q0, qf, q2, q1, q3, q4, q5
+Multimea starilor: q0, qf, q1, q3, q2, q4, q5
 Multimea starilor finale: qf
 Alfabetul: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, +, -, .}
 
@@ -13,6 +13,16 @@ q0 6 qf
 q0 7 qf
 q0 8 qf
 q0 9 qf
+q1 0 q3
+q1 1 q3
+q1 2 q3
+q1 3 q3
+q1 4 q3
+q1 5 q3
+q1 6 q3
+q1 7 q3
+q1 8 q3
+q1 9 q3
 q0 1 q2
 q0 2 q2
 q0 3 q2
@@ -52,6 +62,16 @@ q1 8 q2
 q1 8 qf
 q1 9 q2
 q1 9 qf
+q3 0 q3
+q3 1 q3
+q3 2 q3
+q3 3 q3
+q3 4 q3
+q3 5 q3
+q3 6 q3
+q3 7 q3
+q3 8 q3
+q3 9 q3
 q2 0 q2
 q2 0 q3
 q2 0 qf

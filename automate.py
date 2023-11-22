@@ -75,6 +75,12 @@ class Automate:
                     if (transition[0] == current_state and symbol in transition[1] and
                             transition[1][symbol] not in self.final_states):
                         current_state = transition[1][symbol]
+
+                        if length != len(sequence) and sequence[length] != "." and current_state != "q1":
+                            current_state = "q2"
+                        elif sequence[length] == ".":
+                            current_state = "q3"
+
                         found = True
                         break
                 else:
