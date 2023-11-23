@@ -93,4 +93,4 @@ class Automate:
             if found is False:
                 return invalid_sequence
 
-        return "Sequence este acceptata" if current_state in self.final_states else invalid_sequence
+        return "Secventa este acceptata" if current_state in self.final_states else invalid_sequence
